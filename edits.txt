@@ -34,3 +34,13 @@ Feb/5 Edits.
 
 - changed the tab back color as 
 	http://demo.cmssuperheroes.com/?theme=wp_candidate
+
+
+I've uploaded it to other repository to compare.
+ - new
+ 	https://github.com/anatolypet21/newjekyll
+ 	http://anatolypet21.github.io/newjekyll/
+
+ - old
+ 	http://anatolypet21.github.io/dest1/
+ 	https://github.com/anatolypet21/dest1
