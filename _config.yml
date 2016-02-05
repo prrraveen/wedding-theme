@@ -1,0 +1,46 @@
+# Site settings
+name: Jekyll Blog project
+title: Jekyll Blog project
+email: anatolypet21@jekyll.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+author: anatoly petrov
+baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://anatolypet21.github.io/dest4" # the base hostname & protocol for your site
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+gems:
+- jekyll-assets
+
+# User setting
+owner: Anatoly petrov
+email: anatolypet21@jekyll.com
+facebook_username: anatolypet21@facebook.com
+twitter_username: anatolypet21@twitter.com
+github_username: anatolypet21@github.com
+address: moscow Russia
+  # Feel free to add more lines here 
+telephone: (123) 456-7890
+fax: (123) 456-7890
+copyright: 2016 @ copyright jekyll bolg site
+facebook: http://facebook.com
+twitter: http://twiiter.com
+linkedin: http://linkedin.com
+google: http://google.com
+
+#google map address
+googlemap: https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=JoomShaper,+Dhaka,+Dhaka+Division,+Bangladesh&amp;aq=0&amp;oq=joomshaper&amp;sll=37.0625,-95.677068&amp;sspn=42.766543,80.332031&amp;ie=UTF8&amp;hq=JoomShaper,&amp;hnear=Dhaka,+Dhaka+Division,+Bangladesh&amp;ll=23.73854,90.385504&amp;spn=0.001515,0.002452&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=1073661719450182870&amp;output=embed
+
+# API settings
+google_api_key: AIzaSyA8H0jVz_6Hc273rqNYKQ6AAiBvQfVKmYQ
+
+# Build settings
+markdown: kramdown
+
+include: ['_pages']
+
+
+#name: Drew's Blog
+#description: Drew occasionally writes about things.
+#url: http://blog.drewinglis.com

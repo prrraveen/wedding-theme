@@ -1,0 +1,28 @@
+<div class="container">
+   <div class="center wow fadeInDown">
+        <h2>Featured</h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam.<br/><br/>
+        Get the featured blogs from posts
+        
+        </p>
+    </div>
+    <div data-slick='{"slidesToShow": 6, "slidesToScroll": 6}' class='lazy'>
+        {% for post in site.posts limit:30 %}
+            {% if post.featured == true %}             
+                <a href="{{ site.url }}{{ post.url }}">
+                <div class="item active">
+                    <img src="{{ site.url }}/{{ post.featuredimg }}">
+                    <div class="overlay">
+                        <div class="recent-work-inner">
+                            <h2>{{ post.title }} </h2>
+                            <p>{{ post.description | stop_html | truncatewords: 10 }}</p>
+                        </div> 
+                    </div>
+                </div>
+                </a>
+            
+            {% endif %}
+        {% endfor %}
+    </div>
+</div><!--/.container-->
+

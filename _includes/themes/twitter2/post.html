@@ -1,0 +1,43 @@
+<div class="container post">
+
+  <div class="row">
+    <div id="left-pane" class="col-md-12">
+      <div class="blog-featured">
+          {% if page.featuredimg %}
+          <div class="blog-img" style="background-image: url('{{site.url}}/{{ page.featuredimg }}')">
+            {% endif %}
+            {% if page.categories %}
+              <h3 class="category">{{ page.categories }}</h3>
+             {% endif %}
+              <div class="postthumb">
+                <!--
+                <h1 class="title">{{ page.title }}</h1> 
+                -->
+                <h3 class="date">posted on: {{ page.date | date_to_string }}</h3>
+              </div>
+          </div>
+       </div>
+    </div>
+  </div>  <!-- End Row -->
+
+  <div class="row">
+    <div id="left-pane" class="col-md-3"></div>
+    <div id="center-pane" class="col-md-6">
+      <div class="content post">
+        <h1 class="title">{{ page.title }}</h1>
+
+        {{ page.description }}
+        {{ content }}
+      {% if page.previous and page.categories == page.previous.categories %}
+        <hr>
+        <div>
+          <a href="{{ site.url }}{{ page.previous.url }}" class="btn btn-success btn-large">Next Step: {{ page.previous.title }} &rarr;</a>
+        </div>
+      {% endif %}
+      </div>  
+    </div>
+    <div id="right-pane" class="col-md-3"></div>
+  </div>  <!-- end row -->
+</div>  <!-- end container -->
+
+</div>

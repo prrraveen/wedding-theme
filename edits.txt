@@ -1,0 +1,36 @@
+Feb/5 Edits.
+
+- logo 
+	.Moscow.city	font-family: Mult;
+	.font-family: 'Muli', sans-serif;
+	.<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+- header
+	. changed thiner from 85px->64px(http://demo.cmssuperheroes.com/?theme=wp_candidate)
+
+- Contact Us in Contact page
+	OXYGEN +2
+	font-weight: normal;  // before was bold
+
+- Our Goals 
+	Open Sans +9
+	font-weight: normal;  // before was bold
+
+- Education	//contact page
+	Open Sans
+
+- Lorem ipsum dolor sit amet //under the Our goals tabs in contact page
+	changed the color and hover color to https://flatuicolors.com/ color 'WET ASPHALT'
+	main.css line 815
+- try to make the boarders of the articles closer and thiner and rectangular
+	border: 5px; and rectangular
+
+- Read more button on slider
+	edited as http://www.hubspot.com/ Join the team
+
+- Featured slide 
+	auto slide, every 2s
+	as http://demo.cmssuperheroes.com/?theme=wp_candidate
+
+- changed the tab back color as 
+	http://demo.cmssuperheroes.com/?theme=wp_candidate

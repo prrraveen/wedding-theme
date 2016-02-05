@@ -1,0 +1,62 @@
+
+    <section class='blog'>
+    
+      <div id="main" class="container" style="width:90%; margin:0 auto; position:relative">
+        
+          <h1 class="page-heading center">Blog</h1>
+          <div class="row">
+            {% for post in site.posts offset:0 limit:4 %}
+              <div class="col-md-6">
+                <div class="blog-left wow fadeInLeft animated">
+                  <a href="{{ site.url }}{{ post.url }}">
+                  {% if post.featuredimg %}
+
+                  <div class="blog-img" style="background-image: url('{{site.url}}/{{ post.featuredimg }}')">
+                  {% endif %}
+                  {% if post.categories %}
+                    <h3 class="category">{{ post.categories }}</h3>
+                   {% endif %}
+                    <div class="postthumb">
+                      
+                      <h1 class="title">{{ post.title }}</h1> 
+                      
+                      <h3 class="date">posted on: {{ post.date | date_to_string }}</h3>
+                    </div>
+                  </div>
+                  </a>
+                </div>
+              </div>
+            {% endfor %}
+          </div>  <!-- end row -->
+          <div class="row">
+            <center><button id="loadmore">Older Posts</button></center>
+          </div>
+          <div id="moreposts" class="row more-posts">
+            {% for post in site.posts offset:4 limit:4 %}
+              <div class="col-md-6">
+                <div class="blog-left wow fadeInLeft animated">
+                  <a href="{{ site.url }}{{ post.url }}">
+                  {% if post.featuredimg %}
+                  <div class="blog-img" style="background-image: url('{{site.url}}/{{ post.featuredimg }}')">
+                  {% endif %}
+                  {% if post.categories %}
+                    <h3 class="category">{{ post.categories }}</h3>
+                   {% endif %}
+                    <div class="postthumb">
+                      
+                      <h1 class="title">{{ post.title }}</h1> 
+                      
+                      <h3 class="date">posted on: {{ post.date | date_to_string }}</h3>
+                    </div>
+                  </div>
+                  </a>
+                </div>
+              </div>
+            {% endfor %}
+         </div><!-- /row -->
+      </div><!-- /main container -->
+        <hr>
+       
+  </section>
+    
+    

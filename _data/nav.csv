@@ -1,0 +1,4 @@
+name,link
+Home,{{ site.url }}/
+Blog,{{site.url}}blog
+Contact,{{site.url}}contact-us
