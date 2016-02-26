@@ -1,23 +1,26 @@
 [
   {
     "name": "new york street blurr",
-    "image": "{{ site.github.url }}/images/sky.jpg",
+    "image": "/images/sky.jpg",
     "heading": "The New York Minute",
     "sub-heading": "I am in a new york state of mind",
+    "popup_image": "/images/slider/img1.png",
     "link": "#"
   },
   {
     "name": "work station",
-    "image": "{{ site.github.url }}/images/dear.jpg",
+    "image": "/images/dear.jpg",
     "heading": "The work desk",
     "sub-heading": "Keep calm and keep working",
+    "popup_image": "/images/slider/img2.png",
     "link": "#"
   },
   {
     "name": "wind mill",
-    "image": "{{ site.github.url }}/images/golden-slumber.jpg",
+    "image": "/images/golden-slumber.jpg",
     "heading": "blowing in the wind",
     "sub-heading": "The answer is blowing in the wind",
+    "popup_image": "/images/slider/img3.png",
     "link": "#"
   }
 ]
