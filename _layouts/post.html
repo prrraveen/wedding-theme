@@ -1,5 +1,30 @@
----
-layout: default
----
-{% include JB/setup %}
-{% include themes/twitter2/post.html %}
+<html>
+    <head>
+        {% include head.html %}
+    </head>
+    <body>
+        {% include navigation.html %}
+
+          <div class="container">
+            <div class='row'>
+              <div class='col-sm-8'>
+                <br><br><br>
+                <h3>{{ page.title }}</h3>
+                {{ content }}
+                <hr>
+              </div>
+            </div>
+            <hr>
+            <div class='row'>
+              <div class='col-sm-4'>
+                <a href="{{page.next.url}}">{{ page.next.title }}</a>
+              </div>
+              <div class='col-sm-4'></div>
+              <div class='col-sm-4'>
+                <a href="{{page.previous.url}}">{{ page.previous.title }}</a>
+              </div>
+            </div>
+          </div>
+          {% include footer.html %}
+    </body>
+</html>

@@ -1,28 +1,28 @@
-<div class="container">
-   <div class="center wow fadeInDown">
-        <h2>Featured</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam.<br/><br/>
-        Get the featured blogs from posts
-        
-        </p>
+<div id='featured'>
+    <div class="container">
+        <div class="row">
+            <div class='col-sm-12 text-center'>
+                <h3>Featured Post</h3>
+            </div>
+        </div>
     </div>
-    <div data-slick='{"slidesToShow": 6, "slidesToScroll": 6}' class='lazy'>
-        {% for post in site.posts limit:30 %}
-            {% if post.featured == true %}             
-                <a href="{{ site.url }}{{ post.url }}">
-                <div class="item active">
-                    <img src="{{ site.url }}/{{ post.featuredimg }}">
-                    <div class="overlay">
-                        <div class="recent-work-inner">
-                            <h2>{{ post.title }} </h2>
-                            <p>{{ post.description | stop_html | truncatewords: 10 }}</p>
-                        </div> 
-                    </div>
-                </div>
-                </a>
-            
-            {% endif %}
-        {% endfor %}
+    <div class="row">
+        <div class='col-sm-12'>
+            <div data-slick='{"slidesToShow": 6, "slidesToScroll": 6}' class='lazy'>
+               {% for post in site.posts limit:30 %}
+                   {% if post.featured == true %}
+                       <a href="{{ site.url }}{{ post.url }}">
+                       <div class="item active">
+                           <img class="img-responsive" alt="Responsive image" data-lazy="{{ site.github.url }}{{ post.image}}">
+                           <div class="overlay">
+                               <div class="recent-work-inner">
+                                   <h2>{{ post.title }} </h2>
+                               </div>
+                           </div>
+                       </div>
+                       </a>
+                   {% endif %}
+               {% endfor %}
+        </div>
     </div>
-</div><!--/.container-->
-
+<div>

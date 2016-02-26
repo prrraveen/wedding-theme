@@ -3,10 +3,10 @@ layout: post
 title : Using Themes
 featured: true
 category : category1
-title : article3-source1-category1
+title : article3 source1 category1
 description: |
   Learn how to install, switch between, and edit themes in Jekyll Bootstrap.
-featuredimg: images/blog/blog3.jpg
+image: /assets/images/post/905535_848825298565675_4899594330206236662_o.jpg
 ---
 
 ## Introduction

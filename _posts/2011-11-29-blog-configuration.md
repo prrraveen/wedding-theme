@@ -2,11 +2,11 @@
 layout : post
 category : category2
 featured: true
-title : article1-source4-category2
+title : article1 source4 category2
 tags : [permalinks, urls]
-description: | 
+description: |
   Learn how to configure URL formats, and add comments and analytics.
-featuredimg: images/blog/blog12.jpg
+image: /assets/images/post/11958079_862695403845331_6159702300798549580_o.jpg
 ---
 
 Your Jekyll-Bootstrap blog can be configured by setting options within the `./_config.yml` file.

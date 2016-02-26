@@ -4,12 +4,18 @@
 
 <title>Jekyll Blog project</title>
 
-<!--myfont fonts-->
-<link href="/fonts/MyFontsWebfontsKit.css" rel="stylesheet" type="text/css">
+<!-- bootstrap -->
+<link href="/assets/libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<link href="/css/bootstrap.min.css" rel="stylesheet">
+<!-- slick slider -->
+<link href="/assets/libs/slick-1.5.9/slick/slick.css" rel="stylesheet">
+<link href="/assets/libs/slick-1.5.9/slick/slick-theme.css" rel="stylesheet">
 
-<link rel="stylesheet" href="/css/style.css">
+<!-- style.css is genrated by compiling all the _saas files-->
+<link rel="stylesheet" href="/assets/sass/style.css">
+
+<!-- 1. load the webfonts -->
+<link rel="stylesheet" type="text/css" href="/assets/fonts/MyFontsWebfontsKit/MyFontsWebfontsKit.css"/>
 
     </head>
     <body>
@@ -34,11 +40,11 @@
     </div>
 </nav>
 
-         <div class="carousel slide">
+         <div class="carousel slide" id='first-frame'>
     <div class="carousel-inner">
       
         <div class="item">
-            <img class="img-responsive" alt="Responsive image" src="/images/carousel/game-over.jpg" alt="">
+            <img class="img-responsive" alt="Responsive image" src="/assets/images/carousel/game-over.jpg" alt="">
             <div class="carousel-caption">
                 
                     <h1>Game Over</h1>
@@ -55,7 +61,7 @@
         </div>
       
         <div class="item">
-            <img class="img-responsive" alt="Responsive image" src="/images/carousel/walked-thousan-miles.jpg" alt="">
+            <img class="img-responsive" alt="Responsive image" src="/assets/images/carousel/walked-thousan-miles.jpg" alt="">
             <div class="carousel-caption">
                 
                     <h1>Two of Us</h1>
@@ -70,7 +76,7 @@
         </div>
       
         <div class="item">
-            <img class="img-responsive" alt="Responsive image" src="/images/carousel/10551714_595719360542938_7576241793356828406_o.jpg" alt="">
+            <img class="img-responsive" alt="Responsive image" src="/assets/images/carousel/10551714_595719360542938_7576241793356828406_o.jpg" alt="">
             <div class="carousel-caption">
                 
                     <h1>Finally</h1>
@@ -85,7 +91,7 @@
         </div>
       
         <div class="item">
-            <img class="img-responsive" alt="Responsive image" src="/images/carousel/11537582_777734792341393_9045969207408762601_o.jpg" alt="">
+            <img class="img-responsive" alt="Responsive image" src="/assets/images/carousel/11537582_777734792341393_9045969207408762601_o.jpg" alt="">
             <div class="carousel-caption">
                 
                     <h1>Finally</h1>
@@ -102,15 +108,108 @@
     </div>
  </div>
 
-        <script src="/js/jquery.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/jquery.prettyPhoto.js"></script>
-<script src="/js/jquery.isotope.min.js"></script>
-<script src="/js/main.js"></script>
-<script src="/js/wow.min.js"></script>
+        <div id='featured'>
+    <div class="container">
+        <div class="row">
+            <div class='col-sm-12 text-center'>
+                <h3>Featured Post</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class='col-sm-12'>
+            <div data-slick='{"slidesToShow": 6, "slidesToScroll": 6}' class='lazy'>
+               
+                   
+                       <a href="http://anatolypet21.github.io/newjekyll/category4/2011/11/30/jekyll-theming.html">
+                       <div class="item active">
+                           <img class="img-responsive" alt="Responsive image" data-lazy="/assets/images/post/10633305_654606587987548_2131397817251192628_o.jpg">
+                           <div class="overlay">
+                               <div class="recent-work-inner">
+                                   <h2>Category blog4 </h2>
+                               </div>
+                           </div>
+                       </div>
+                       </a>
+                   
+               
+                   
+                       <a href="http://anatolypet21.github.io/newjekyll/category2/2011/11/29/blog-configuration.html">
+                       <div class="item active">
+                           <img class="img-responsive" alt="Responsive image" data-lazy="/assets/images/post/11958079_862695403845331_6159702300798549580_o.jpg">
+                           <div class="overlay">
+                               <div class="recent-work-inner">
+                                   <h2>article1 source4 category2 </h2>
+                               </div>
+                           </div>
+                       </div>
+                       </a>
+                   
+               
+                   
+                       <a href="http://anatolypet21.github.io/newjekyll/category1/2011/11/28/deployment-and-hosting.html">
+                       <div class="item active">
+                           <img class="img-responsive" alt="Responsive image" data-lazy="/assets/images/post/905535_848825298565675_4899594330206236662_o.jpg">
+                           <div class="overlay">
+                               <div class="recent-work-inner">
+                                   <h2>article1 source4 category1 </h2>
+                               </div>
+                           </div>
+                       </div>
+                       </a>
+                   
+               
+                   
+                       <a href="http://anatolypet21.github.io/newjekyll/category1/2011/10/30/jekyll-theming.html">
+                       <div class="item active">
+                           <img class="img-responsive" alt="Responsive image" data-lazy="/assets/images/post/905535_848825298565675_4899594330206236662_o.jpg">
+                           <div class="overlay">
+                               <div class="recent-work-inner">
+                                   <h2>article3 source1 category1 </h2>
+                               </div>
+                           </div>
+                       </div>
+                       </a>
+                   
+               
+                   
+                       <a href="http://anatolypet21.github.io/newjekyll/category1/2011/10/29/blog-configuration.html">
+                       <div class="item active">
+                           <img class="img-responsive" alt="Responsive image" data-lazy="/assets/images/post/905535_848825298565675_4899594330206236662_o.jpg">
+                           <div class="overlay">
+                               <div class="recent-work-inner">
+                                   <h2>article2 source1 category1 </h2>
+                               </div>
+                           </div>
+                       </div>
+                       </a>
+                   
+               
+                   
+                       <a href="http://anatolypet21.github.io/newjekyll/category1/2011/10/28/deployment-and-hosting.html">
+                       <div class="item active">
+                           <img class="img-responsive" alt="Responsive image" data-lazy="/assets/images/post/905535_848825298565675_4899594330206236662_o.jpg">
+                           <div class="overlay">
+                               <div class="recent-work-inner">
+                                   <h2>article1 source1 category1 </h2>
+                               </div>
+                           </div>
+                       </div>
+                       </a>
+                   
+               
+        </div>
+    </div>
+<div>
 
-    <!-- jsdelivr carousel plugin -->
-    <script type="text/javascript" src="/js/jquery.slick/slick.min.js"></script>
+        <script src="/assets/libs/jquery/dist/jquery.min.js"></script>
+
+<!--  slick is to show to slider for featured post -->
+<script src="/assets/libs/slick-1.5.9/slick/slick.min.js"></script>
+
+<script src="/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+<!--  scrpt is the custome page -->
+<script src="/assets/script.js"></script>
 
     </body>
 </html>
