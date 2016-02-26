@@ -1,0 +1,22 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica", Arial;
+  font-weight: normal;
+  font-size: 16px;
+  color: #666; }
+
+.navigation.transparent {
+  margin: 0 auto;
+  overflow: hidden;
+  font-weight: 600;
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff !important; }
+  .navigation.transparent .nav-tabs {
+    border-bottom: transparent; }
+  .navigation.transparent a {
+    color: #fff !important; }
+  .navigation.transparent a:hover, .navigation.transparent a:focus {
+    font-size: 18px; }
+
+/*# sourceMappingURL=style.css.map */

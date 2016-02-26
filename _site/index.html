@@ -1,546 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-">
-    <meta name="author" content="">
-    <!--<title>Candidate political campaign</title>-->
-	<title>Jekyll Blog project</title>
-	<!-- core CSS -->
-    
-    <link href="http://127.0.0.1:4000/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://127.0.0.1:4000/css/font-awesome.min.css" rel="stylesheet">
-    <link href="http://127.0.0.1:4000/css/animate.min.css" rel="stylesheet">
-    <link href="http://127.0.0.1:4000/css/prettyPhoto.css" rel="stylesheet">
-    <link href="http://127.0.0.1:4000/css/main.css" rel="stylesheet">
-    
-    
-    
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="shortcut icon" href="http://127.0.0.1:4000/images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://127.0.0.1:4000/images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://127.0.0.1:4000/images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://127.0.0.1:4000/images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="http://127.0.0.1:4000/images/ico/apple-touch-icon-57-precomposed.png">
+<title>Jekyll Blog project</title>
 
-    <link rel="canonical" href="http://127.0.0.1:4000http://127.0.0.1:4000/">
-  <link rel="alternate" type="application/rss+xml" title="Jekyll Blog project" href="http://127.0.0.1:4000http://127.0.0.1:4000/feed.xml">
+<!--myfont fonts-->
+<link href="/fonts/MyFontsWebfontsKit.css" rel="stylesheet" type="text/css">
 
-    <!-- jsdelivr carousel plugin -->
-   
-    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:4000/css/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:4000/css/slick-theme.css"/>
+<link href="/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="http://127.0.0.1:4000/css/custom.css" rel="stylesheet">
-
-    <link href="http://127.0.0.1:4000/css/responsive.css" rel="stylesheet">
-    <link href='http://joelglovier.com/feed.xml' rel='alternate' type='application/atom+xml'>
-
-    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
-                
-</head><!--/head-->
-
-<body class="homepage">
-    
-<header id="header">
-    <nav class="navbar navbar-inverse" role="banner">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="http://127.0.0.1:4000">Moscow.city</a>
-            </div>
-    
-            <div class="collapse navbar-collapse navbar-right">
-                <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="http://127.0.0.1:4000">Home</a>
-                </li>
-                <li>
-                    <a href="http://127.0.0.1:4000/contact-us">Contact</a>
-                </li>
-                <li>
-
-                    <div class="search">
-                    
-                        <form role="form" onsubmit="my_search_google()">
-                            <i class="fa fa-search"></i>
-                            <div class="field-toggle">
-                                <input type="text" id="my-google-search"  class="search-form" autocomplete="off" placeholder="Search">
-                              
-                            </div>
-                        </form>
-                    </div>
-                </li>
-              </ul>
-            </div>
-
-        </div>
-    </nav>
-    <script language="Javascript" type="text/javascript">
-      function my_search_google()
-      {
-        var query = document.getElementById("my-google-search").value;
-        window.open("http://google.com/search?q=" + query + "%20site:" + "http://anatolypet21.github.io/jekyll");
-      }
-    </script>
-</header>
+<link rel="stylesheet" href="/css/style.css">
 
 
-    <section id="main-slider" class="no-margin">
-        
-        <div class="carousel slide">
-            <div class="carousel-inner">
-              
-                
-                  <div class="item active" style="background-image: url(http://127.0.0.1:4000/images/slider/bg1.jpg)">
-                
-                  <div class="container">
-                    <div class="row slide-margin">
-                      <div class="col-sm-6">
-                        <div class="carousel-content">
-                          <h1 class="animation animated-item-1">First Slide</h1>
-                          <h2 class="animation animated-item-2">This is the sub heading for the first slide</h2>
-                          <br/>
-                          <a class="btn-slide animation animated-item-3" href="">Read More</a>
-                        </div>
-                      </div>
-
-                      <div class="col-sm-6 hidden-xs animation animated-item-4">
-                        <div class="slider-img">
-                          <img src="http://127.0.0.1:4000/images/slider/img1.png" class="img-responsive">
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                </div><!--/.item-->
-              
-                
-                  <div class="item" style="background-image: url(http://127.0.0.1:4000/images/slider/bg2.jpg)">
-                
-                  <div class="container">
-                    <div class="row slide-margin">
-                      <div class="col-sm-6">
-                        <div class="carousel-content">
-                          <h1 class="animation animated-item-1">Second Slide</h1>
-                          <h2 class="animation animated-item-2">This is the sub heading for the second slide</h2>
-                          <br/>
-                          <a class="btn-slide animation animated-item-3" href="">Read More</a>
-                        </div>
-                      </div>
-
-                      <div class="col-sm-6 hidden-xs animation animated-item-4">
-                        <div class="slider-img">
-                          <img src="http://127.0.0.1:4000/images/slider/img2.png" class="img-responsive">
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                </div><!--/.item-->
-              
-                
-                  <div class="item" style="background-image: url(http://127.0.0.1:4000/images/slider/bg3.jpg)">
-                
-                  <div class="container">
-                    <div class="row slide-margin">
-                      <div class="col-sm-6">
-                        <div class="carousel-content">
-                          <h1 class="animation animated-item-1">Third Heading</h1>
-                          <h2 class="animation animated-item-2">This is the sub heading for the third slide</h2>
-                          <br/>
-                          <a class="btn-slide animation animated-item-3" href="">Read More</a>
-                        </div>
-                      </div>
-
-                      <div class="col-sm-6 hidden-xs animation animated-item-4">
-                        <div class="slider-img">
-                          <img src="http://127.0.0.1:4000/images/slider/img3.png" class="img-responsive">
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                </div><!--/.item-->
-              
-            </div><!--/.carousel-inner-->
-        </div><!--/.carousel-->
-        
-    
-    </section><!--/#main-slider-->    
-    <section id="feature" >
-        
-      <div class="container">
-   <div class="center wow fadeInDown">
-        <h2>Featured</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam.<br/><br/>
-        Get the featured blogs from posts
-        
-        </p>
-    </div>
-    <div data-slick='{"slidesToShow": 6, "slidesToScroll": 6}' class='lazy'>
-        
-                         
-                <a href="http://127.0.0.1:4000/category3/2016/02/05/testblog.html">
-                <div class="item active">
-                    <img src="http://127.0.0.1:4000/images/blog/testblog.jpg">
-                    <div class="overlay">
-                        <div class="recent-work-inner">
-                            <h2>Test post </h2>
-                            <p>This is the test post for screen capture
-</p>
-                        </div> 
-                    </div>
-                </div>
-                </a>
-            
-            
-        
-                         
-                <a href="http://127.0.0.1:4000/category4/2011/12/01/jekyll-quick-start.html">
-                <div class="item active">
-                    <img src="http://127.0.0.1:4000/images/blog/blog14.jpg">
-                    <div class="overlay">
-                        <div class="recent-work-inner">
-                            <h2>article2-source4-category4 </h2>
-                            <p>Quickly get your blog installed and published via GitHub Pages....</p>
-                        </div> 
-                    </div>
-                </div>
-                </a>
-            
-            
-        
-                         
-                <a href="http://127.0.0.1:4000/category4/2011/11/30/jekyll-theming.html">
-                <div class="item active">
-                    <img src="http://127.0.0.1:4000/images/blog/blog13.jpg">
-                    <div class="overlay">
-                        <div class="recent-work-inner">
-                            <h2>Category blog4 </h2>
-                            <p>Learn how to install, switch between, and edit themes in...</p>
-                        </div> 
-                    </div>
-                </div>
-                </a>
-            
-            
-        
-                         
-                <a href="http://127.0.0.1:4000/category2/2011/11/29/blog-configuration.html">
-                <div class="item active">
-                    <img src="http://127.0.0.1:4000/images/blog/blog12.jpg">
-                    <div class="overlay">
-                        <div class="recent-work-inner">
-                            <h2>article1-source4-category2 </h2>
-                            <p>Learn how to configure URL formats, and add comments and...</p>
-                        </div> 
-                    </div>
-                </div>
-                </a>
-            
-            
-        
-                         
-                <a href="http://127.0.0.1:4000/category1/2011/11/28/deployment-and-hosting.html">
-                <div class="item active">
-                    <img src="http://127.0.0.1:4000/images/blog/blog11.jpg">
-                    <div class="overlay">
-                        <div class="recent-work-inner">
-                            <h2>article1-source4-category1 </h2>
-                            <p>Jekyll Bootstrap is built to deploy instantly to GitHub Pages....</p>
-                        </div> 
-                    </div>
-                </div>
-                </a>
-            
-            
-        
-                         
-                <a href="http://127.0.0.1:4000/category1/2011/10/30/jekyll-theming.html">
-                <div class="item active">
-                    <img src="http://127.0.0.1:4000/images/blog/blog3.jpg">
-                    <div class="overlay">
-                        <div class="recent-work-inner">
-                            <h2>article3-source1-category1 </h2>
-                            <p>Learn how to install, switch between, and edit themes in...</p>
-                        </div> 
-                    </div>
-                </div>
-                </a>
-            
-            
-        
-                         
-                <a href="http://127.0.0.1:4000/category1/2011/10/29/blog-configuration.html">
-                <div class="item active">
-                    <img src="http://127.0.0.1:4000/images/blog/blog2.jpg">
-                    <div class="overlay">
-                        <div class="recent-work-inner">
-                            <h2>article2-source1-category1 </h2>
-                            <p>Learn how to configure URL formats, and add comments and...</p>
-                        </div> 
-                    </div>
-                </div>
-                </a>
-            
-            
-        
-                         
-                <a href="http://127.0.0.1:4000/category1/2011/10/28/deployment-and-hosting.html">
-                <div class="item active">
-                    <img src="http://127.0.0.1:4000/images/blog/blog1.jpg">
-                    <div class="overlay">
-                        <div class="recent-work-inner">
-                            <h2>article1-source1-category1 </h2>
-                            <p>Jekyll Bootstrap is built to deploy instantly to GitHub Pages....</p>
-                        </div> 
-                    </div>
-                </div>
-                </a>
-            
-            
-        
-    </div>
-</div><!--/.container-->
-
-              
-        
-    </section><!--/#feature-->
-    
-   
-    
-    <section class='blog'>
-    
-      <div id="main" class="container" style="width:90%; margin:0 auto; position:relative">
-        
-          <h1 class="page-heading center">Blog</h1>
-          <div class="row">
-            
-              <div class="col-md-6">
-                <div class="blog-left wow fadeInLeft animated">
-                  <a href="http://127.0.0.1:4000/category3/2016/02/05/testblog.html">
-                  
-
-                  <div class="blog-img" style="background-image: url('http://127.0.0.1:4000/images/blog/testblog.jpg')">
-                  
-                  
-                    <h3 class="category">category3</h3>
-                   
-                    <div class="postthumb">
-                      
-                      <h1 class="title">Test post</h1> 
-                      
-                      <h3 class="date">posted on: 05 Feb 2016</h3>
-                    </div>
-                  </div>
-                  </a>
-                </div>
-              </div>
-            
-              <div class="col-md-6">
-                <div class="blog-left wow fadeInLeft animated">
-                  <a href="http://127.0.0.1:4000/category4/2011/12/01/jekyll-quick-start.html">
-                  
-
-                  <div class="blog-img" style="background-image: url('http://127.0.0.1:4000/images/blog/blog14.jpg')">
-                  
-                  
-                    <h3 class="category">category4</h3>
-                   
-                    <div class="postthumb">
-                      
-                      <h1 class="title">article2-source4-category4</h1> 
-                      
-                      <h3 class="date">posted on: 01 Dec 2011</h3>
-                    </div>
-                  </div>
-                  </a>
-                </div>
-              </div>
-            
-              <div class="col-md-6">
-                <div class="blog-left wow fadeInLeft animated">
-                  <a href="http://127.0.0.1:4000/category4/2011/11/30/jekyll-theming.html">
-                  
-
-                  <div class="blog-img" style="background-image: url('http://127.0.0.1:4000/images/blog/blog13.jpg')">
-                  
-                  
-                    <h3 class="category">category4</h3>
-                   
-                    <div class="postthumb">
-                      
-                      <h1 class="title">Category blog4</h1> 
-                      
-                      <h3 class="date">posted on: 30 Nov 2011</h3>
-                    </div>
-                  </div>
-                  </a>
-                </div>
-              </div>
-            
-              <div class="col-md-6">
-                <div class="blog-left wow fadeInLeft animated">
-                  <a href="http://127.0.0.1:4000/category2/2011/11/29/blog-configuration.html">
-                  
-
-                  <div class="blog-img" style="background-image: url('http://127.0.0.1:4000/images/blog/blog12.jpg')">
-                  
-                  
-                    <h3 class="category">category2</h3>
-                   
-                    <div class="postthumb">
-                      
-                      <h1 class="title">article1-source4-category2</h1> 
-                      
-                      <h3 class="date">posted on: 29 Nov 2011</h3>
-                    </div>
-                  </div>
-                  </a>
-                </div>
-              </div>
-            
-          </div>  <!-- end row -->
-          <div class="row">
-            <center><button id="loadmore">Older Posts</button></center>
-          </div>
-          <div id="moreposts" class="row more-posts">
-            
-              <div class="col-md-6">
-                <div class="blog-left wow fadeInLeft animated">
-                  <a href="http://127.0.0.1:4000/category1/2011/11/28/deployment-and-hosting.html">
-                  
-                  <div class="blog-img" style="background-image: url('http://127.0.0.1:4000/images/blog/blog11.jpg')">
-                  
-                  
-                    <h3 class="category">category1</h3>
-                   
-                    <div class="postthumb">
-                      
-                      <h1 class="title">article1-source4-category1</h1> 
-                      
-                      <h3 class="date">posted on: 28 Nov 2011</h3>
-                    </div>
-                  </div>
-                  </a>
-                </div>
-              </div>
-            
-              <div class="col-md-6">
-                <div class="blog-left wow fadeInLeft animated">
-                  <a href="http://127.0.0.1:4000/category1/2011/10/30/jekyll-theming.html">
-                  
-                  <div class="blog-img" style="background-image: url('http://127.0.0.1:4000/images/blog/blog3.jpg')">
-                  
-                  
-                    <h3 class="category">category1</h3>
-                   
-                    <div class="postthumb">
-                      
-                      <h1 class="title">article3-source1-category1</h1> 
-                      
-                      <h3 class="date">posted on: 30 Oct 2011</h3>
-                    </div>
-                  </div>
-                  </a>
-                </div>
-              </div>
-            
-              <div class="col-md-6">
-                <div class="blog-left wow fadeInLeft animated">
-                  <a href="http://127.0.0.1:4000/category1/2011/10/29/blog-configuration.html">
-                  
-                  <div class="blog-img" style="background-image: url('http://127.0.0.1:4000/images/blog/blog2.jpg')">
-                  
-                  
-                    <h3 class="category">category1</h3>
-                   
-                    <div class="postthumb">
-                      
-                      <h1 class="title">article2-source1-category1</h1> 
-                      
-                      <h3 class="date">posted on: 29 Oct 2011</h3>
-                    </div>
-                  </div>
-                  </a>
-                </div>
-              </div>
-            
-              <div class="col-md-6">
-                <div class="blog-left wow fadeInLeft animated">
-                  <a href="http://127.0.0.1:4000/category1/2011/10/28/deployment-and-hosting.html">
-                  
-                  <div class="blog-img" style="background-image: url('http://127.0.0.1:4000/images/blog/blog1.jpg')">
-                  
-                  
-                    <h3 class="category">category1</h3>
-                   
-                    <div class="postthumb">
-                      
-                      <h1 class="title">article1-source1-category1</h1> 
-                      
-                      <h3 class="date">posted on: 28 Oct 2011</h3>
-                    </div>
-                  </div>
-                  </a>
-                </div>
-              </div>
-            
-         </div><!-- /row -->
-      </div><!-- /main container -->
-        <hr>
-       
-  </section>
-    
-    
-
-    <footer id="footer" class="midnight-blue">
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top trans navigation">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-                &copy; 2016 . All Rights Reserved.
-            </div>
-            <div class="col-sm-6">
-                <ul class="pull-right">
-                    <li>
-                        <a href="http://127.0.0.1:4000">Home</a>
-                    </li>
-                    <li>
-                        <a href="http://127.0.0.1:4000/contact-us">Contact</a>
-                    </li>
-                </ul>
+            <div class="col-sm-12">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand name" href="#">Moscow.city</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#clients">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</footer><!--/#footer-->
+</nav>
+         <div class="carousel slide">
+    <div class="carousel-inner">
+      
+        <div class="item">
+            <img class="img-responsive" alt="Responsive image" src="/images/sky.jpg" alt="">
+            <div class="carousel-caption">
+                <h2>The New York Minute</h2>
+                <p>I am in a new york state of mind </p>
+                <a href="#" class="btn btn-lg">Learn More</a>
+            </div>
+        </div>
+      
+        <div class="item">
+            <img class="img-responsive" alt="Responsive image" src="/images/dear.jpg" alt="">
+            <div class="carousel-caption">
+                <h2>The work desk</h2>
+                <p>Keep calm and keep working </p>
+                <a href="#" class="btn btn-lg">Learn More</a>
+            </div>
+        </div>
+      
+        <div class="item">
+            <img class="img-responsive" alt="Responsive image" src="/images/golden-slumber.jpg" alt="">
+            <div class="carousel-caption">
+                <h2>blowing in the wind</h2>
+                <p>The answer is blowing in the wind </p>
+                <a href="#" class="btn btn-lg">Learn More</a>
+            </div>
+        </div>
+      
+    </div>
+ </div>
 
-<script src="http://127.0.0.1:4000/js/jquery.js"></script>
-    <script src="http://127.0.0.1:4000/js/bootstrap.min.js"></script>
-    <script src="http://127.0.0.1:4000/js/jquery.prettyPhoto.js"></script>
-    <script src="http://127.0.0.1:4000/js/jquery.isotope.min.js"></script>
-    <script src="http://127.0.0.1:4000/js/main.js"></script>
-    <script src="http://127.0.0.1:4000/js/wow.min.js"></script>
+        <script src="http://anatolypet21.github.io/newjekyll/js/jquery.js"></script>
+<script src="http://anatolypet21.github.io/newjekyll/js/bootstrap.min.js"></script>
+<script src="http://anatolypet21.github.io/newjekyll/js/jquery.prettyPhoto.js"></script>
+<script src="http://anatolypet21.github.io/newjekyll/js/jquery.isotope.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="http://anatolypet21.github.io/newjekyll/js/wow.min.js"></script>
 
     <!-- jsdelivr carousel plugin -->
-    <script type="text/javascript" src="http://127.0.0.1:4000/js/jquery.slick/slick.min.js"></script>
+    <script type="text/javascript" src="http://anatolypet21.github.io/newjekyll/js/jquery.slick/slick.min.js"></script>
 
-    <span id="top-link-block" class="hidden">
-      <a href="#top" class="well well-sm"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
-          <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
-      </a>
-  </span><!-- /top-link-block -->
-</body>
+    </body>
 </html>

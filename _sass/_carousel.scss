@@ -1,0 +1,28 @@
+
+.carousel img{
+   float: left;
+}
+
+.carousel-caption {
+    top: 46%;
+    max-width: 550px;
+    padding: 0 20px;
+    margin:0 auto;
+    margin-top: 200px;
+    text-align:center;
+}
+
+
+.carousel-caption a{
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 24px;
+  color: #fff;
+}
+
+.carousel-caption a:hover {
+    color: #333;
+    text-decoration: none;
+}

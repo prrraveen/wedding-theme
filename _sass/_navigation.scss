@@ -1,0 +1,46 @@
+@import "import";
+
+.navigation.transparent{
+  margin: 0 auto;
+  overflow: hidden;
+  font-weight: 600;
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff !important;
+  @include border-radius(0px);
+  @include box-shadow(0 0 0 0);
+
+  a {
+    color: $text-two !important;
+  }
+
+  a:hover,a:focus{
+    font-size: 17px;
+  }
+
+}
+
+.navigation{
+  margin: 0 auto;
+  overflow: hidden;
+  font-weight: 600;
+  background-color: $green-sea;
+  border-color: $green-sea;
+  color: #fff !important;
+  @include border-radius(5px);
+  @include box-shadow(2px 2px 3px rgba(0,0,0,.3));
+
+  .nav-tabs{
+    border-bottom: transparent;
+  }
+
+  a {
+    color: $text-two !important;
+  }
+
+  a:hover,a:focus,.navbar-brand
+  {
+    color: $clouds;
+    font-size: 17px;
+  }
+}

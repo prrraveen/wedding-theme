@@ -10,8 +10,6 @@ author: anatoly petrov
 baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://anatolypet21.github.io/dest4" # the base hostname & protocol for your site
 url: "http://anatolypet21.github.io/newjekyll" # the base hostname & protocol for your site
-gems:
-- jekyll-assets
 
 # User setting
 owner: Anatoly petrov

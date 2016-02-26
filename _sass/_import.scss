@@ -1,0 +1,45 @@
+$clouds: #ECF0F1;
+$turquoise: #1ABC9C;
+$green-sea: #16A085;
+$midnight-blue: #2C3E50;
+$pomgranate: #E74C3C;
+
+
+$text-one: #4f3b3b;
+$text-two: #fff;
+
+@mixin transition($val){
+  -webkit-transition: $val;
+  -moz-transition: $val;
+  -o-transition: $val;
+  transition: $val;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin box-shadow($val) {
+  -moz-box-shadow: $val;
+  -webkit-box-shadow: $val;
+  box-shadow: $val;
+}
+
+@mixin box-sizing{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0px; //so website do not touch the browser window
+  padding: 0;
+  -webkit-font-smoothing: antialiased; //smooth the font on mac
+  font-family: "Helvetica", Arial; //defaut font , fallback to Arial since some browser do not support Helvatica
+  font-weight: normal;
+  font-size:16px;
+  color: #666; //default font color. this is to override any existing font color on users browser.
+}
