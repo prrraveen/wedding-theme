@@ -1,6 +1,7 @@
 
 .carousel img{
    float: left;
+   width: 100%;
 }
 
 .carousel-caption {
@@ -25,4 +26,8 @@
 .carousel-caption a:hover {
     color: #333;
     text-decoration: none;
+}
+
+.carousel-caption p{
+    font-size: 24px;
 }

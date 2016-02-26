@@ -10,7 +10,7 @@ init = function () {
 
     //adding carousel avoid using bootstrap data tags for JS events. it get un manageable soon.
     $('.carousel').carousel({
-        interval: 4000
+        interval: 7000
     });
 
     //apply transparent navbar

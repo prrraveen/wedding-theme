@@ -1,26 +1,27 @@
 [
   {
-    "name": "new york street blurr",
-    "image": "/images/sky.jpg",
-    "heading": "The New York Minute",
-    "sub-heading": "I am in a new york state of mind",
-    "popup_image": "/images/slider/img1.png",
+    "name": "Game Over",
+    "image": "/images/carousel/game-over.jpg",
+    "heading": "Game Over",
+    "sub-heading": "And When I wake up, you are still with me",
     "link": "#"
   },
   {
-    "name": "work station",
-    "image": "/images/dear.jpg",
-    "heading": "The work desk",
-    "sub-heading": "Keep calm and keep working",
-    "popup_image": "/images/slider/img2.png",
-    "link": "#"
+    "name": "beach baby pink",
+    "image": "/images/carousel/walked-thousan-miles.jpg",
+    "heading": "Two of Us",
+    "sub-heading": ".. So I stole his last name.",
   },
   {
-    "name": "wind mill",
-    "image": "/images/golden-slumber.jpg",
-    "heading": "blowing in the wind",
-    "sub-heading": "The answer is blowing in the wind",
-    "popup_image": "/images/slider/img3.png",
-    "link": "#"
+    "name": "waiting",
+    "image": "/images/carousel/10551714_595719360542938_7576241793356828406_o.jpg",
+    "heading": "Finally",
+    "sub-heading": "And When I wake up, you are still with me",
+  },
+  {
+    "name": "waiting",
+    "image": "/images/carousel/11537582_777734792341393_9045969207408762601_o.jpg",
+    "heading": "Finally",
+    "sub-heading": "And When I wake up, you are still with me",
   }
 ]
