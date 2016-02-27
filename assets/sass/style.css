@@ -46,11 +46,11 @@ body {
     color: #ECF0F1;
     font-size: 17px; }
 
-#first-frame.carousel img {
+.carousel img {
   float: left;
   width: 100%; }
 
-#first-frame.carousel-caption {
+.carousel-caption {
   top: 46%;
   max-width: 550px;
   padding: 0 20px;
@@ -58,7 +58,7 @@ body {
   margin-top: 200px;
   text-align: center; }
 
-#first-frame.carousel-caption a {
+.carousel-caption a {
   background-color: transparent;
   border-style: solid;
   border-width: 1px;
@@ -66,24 +66,25 @@ body {
   border-radius: 24px;
   color: #fff; }
 
-#first-frame.carousel-caption a:hover {
+.carousel-caption a:hover {
   color: #333;
   text-decoration: none; }
 
-#first-frame.carousel-caption h1 {
+.carousel-caption h1 {
   font-weight: bold; }
 
-#first-frame.carousel-caption p {
+.carousel-caption p {
   font-size: 24px;
   font-weight: bold; }
 
-#first-frame.carousel-inner {
+.carousel-inner {
   height: 950px; }
 
 #featured {
   background-color: #2C3E50;
   color: #fff;
-  padding-bottom: 5%; }
+  padding-bottom: 5%;
+  overflow: hidden; }
   #featured h3 {
     margin-top: 5%;
     margin-bottom: 5%;

@@ -6,18 +6,13 @@
 var init;
 init = function () {
     //The .active class needs to be added to one of the slides. Otherwise, the carousel will not be visible.
-    $('#first-frame.carousel .item:first').addClass('active');
-    $('#featured-frame.carousel .item:first').addClass('active');
+    $('.carousel .item:first').addClass('active');
 
     //adding carousel avoid using bootstrap data tags for JS events. it get un manageable soon.
-    $('#first-frame.carousel').carousel({
+    $('.carousel').carousel({
         interval: 7000
     });
 
-    //adding carousel avoid using bootstrap data tags for JS events. it get un manageable soon.
-    $('#featured-frame.carousel').carousel({
-        interval: 7000
-    });
 
     //apply transparent navbar
     apply_on_scroll();
