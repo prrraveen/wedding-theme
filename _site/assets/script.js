@@ -79,4 +79,5 @@ var featured_slider = function(){
       ]
     });
 }
+
 window.onload = init(); //when dom is loaded. run init function

@@ -71,11 +71,11 @@ body {
   text-decoration: none; }
 
 .carousel-caption h1 {
-  font-weight: bold; }
+  font-family: 'Cherry Swash', cursive; }
 
 .carousel-caption p {
   font-size: 24px;
-  font-weight: bold; }
+  font-family: 'Cherry Swash', cursive; }
 
 .carousel-inner {
   height: 950px; }
@@ -90,8 +90,7 @@ body {
   #featured h3 {
     margin-top: 5%;
     margin-bottom: 5%;
-    font-weight: bold;
-    font-family: ProximaNovaA-Thin; }
+    font-family: 'Cherry Swash', cursive; }
   #featured .slick-slide {
     max-height: 450px;
     margin-left: 1em;
@@ -122,9 +121,8 @@ body {
     margin-top: 5em;
     margin-bottom: 5em; }
     #testimonial blockquote p {
-      font-family: ProximaNovaA-Thin;
-      font-size: 26px;
-      font-weight: bold; }
+      font-family: 'Cherry Swash', cursive;
+      font-size: 26px; }
 
 .footer {
   background-color: #6C7A89; }

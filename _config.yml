@@ -18,7 +18,7 @@ facebook_username: anatolypet21@facebook.com
 twitter_username: anatolypet21@twitter.com
 github_username: anatolypet21@github.com
 address: moscow Russia
-  # Feel free to add more lines here 
+  # Feel free to add more lines here
 telephone: (123) 456-7890
 fax: (123) 456-7890
 copyright: 2016 @ copyright jekyll bolg site
@@ -38,7 +38,7 @@ markdown: kramdown
 
 include: ['_pages']
 
-
+gems: [jekyll-sitemap]
 #name: Drew's Blog
 #description: Drew occasionally writes about things.
 #url: http://blog.drewinglis.com
