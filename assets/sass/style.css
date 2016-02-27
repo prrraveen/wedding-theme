@@ -95,9 +95,6 @@ body {
   font-size: 24px;
   font-family: 'Cherry Swash', cursive; }
 
-.carousel-inner {
-  height: 950px; }
-
 #featured {
   background-color: #2C3E50;
   color: #fff;
@@ -169,5 +166,13 @@ body {
 
 .jumbotron {
   font-family: 'Cherry Swash', cursive; }
+
+.posts {
+  background-color: blanchedalmond; }
+  .posts .well {
+    font-family: 'Cherry Swash', cursive; }
+  .posts h1, .posts h3 a {
+    color: #4f3b3b;
+    font-family: 'Cherry Swash', cursive; }
 
 /*# sourceMappingURL=style.css.map */

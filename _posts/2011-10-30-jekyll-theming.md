@@ -3,7 +3,7 @@ layout: post
 title : Using Themes
 featured: true
 category : category1
-title : Punjabi Wedding
+title : Punjabi Weddings
 description: |
   Learn how to install, switch between, and edit themes in Jekyll Bootstrap.
 image: /assets/images/post/905535_848825298565675_4899594330206236662_o.jpg
