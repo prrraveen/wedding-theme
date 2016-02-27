@@ -3,15 +3,49 @@ layout: post
 title : Using Themes
 featured: true
 category : category4
-title : article1 source4 category4
+title : Indian Wedding Style
 description: |
   Learn how to install, switch between, and edit themes in Jekyll Bootstrap.
 image: /assets/images/post/10633305_654606587987548_2131397817251192628_o.jpg
 ---
 
+The MoveIt! development team would like to wish you a very happy new year and bring new tidings. We have:
 
-As of JB version 0.2.x themes are now entirely modular. They are tracked and versioned individually as **Theme Packages**.
-This allows everyone to publish and share themes freely.
 
-Jekyll-Bootstrap v 0.2.x ships with only the stock "twitter" theme.
-Additional themes need to be "installed" as outlined below.
+### A MoveIt! 2013 Montage Movie
+
+
+<iframe width="710" height="315" src="https://www.youtube.com/embed/dblCGZzeUqs" frameborder="0" allowfullscreen></iframe>
+
+
+### A new website
+
+
+[(http://moveit.ros.org)](http://moveit.ros.org)
+
+We have listened to your feedback and added:
+
+
+
+
+  * [MoveIt! Blog](/blog/) - we will highlight features, apps, robots and demos here (so please send them in regularly)
+
+
+  * [New documentation](/documentation/)
+
+
+  * [New tutorials](/documentation/tutorials/) - Sphinx-based tutorials living next to the code so they are easier to maintain
+
+
+  * [Robots using MoveIt!](/robots/) page
+
+
+  * [FAQs page](/documentation/faqs/) - where we will collect the most frequently asked questions (and answers)
+
+
+  * [Status](/about/moveit-status/) page highlighting the status of different components in MoveIt!
+
+
+We are also inviting members of the community to sign up as official maintainers of the MoveIt! packages and associated interfaces for different robots so that we can get stable MoveIt! interfaces to a wide variety of robots.
+
+We look forward to the next year of moving it!!

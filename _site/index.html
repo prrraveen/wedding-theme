@@ -21,7 +21,7 @@
 
     </head>
     <body>
-        <nav class="navbar navbar-default navbar-fixed-top navigation">
+        <nav class="navbar navbar-default navigation">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -109,7 +109,10 @@
     </div>
  </div>
 
-        <div id='featured'>
+        ---
+---
+
+<div id='featured'>
     <div class="container">
         <div class="row">
             <div class='col-sm-12 text-center'>
@@ -127,7 +130,7 @@
                             <img class="img-responsive" alt="Responsive image" data-lazy="/assets/images/post/10633305_654606587987548_2131397817251192628_o.jpg">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h2>article1 source4 category4 </h2>
+                                    <h2>Indian Wedding Style </h2>
                                 </div>
                             </div>
                         </div>
@@ -140,7 +143,7 @@
                             <img class="img-responsive" alt="Responsive image" data-lazy="/assets/images/post/11958079_862695403845331_6159702300798549580_o.jpg">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h2>article1 source4 category2 </h2>
+                                    <h2>Say Hellow to Rajasthan </h2>
                                 </div>
                             </div>
                         </div>
@@ -153,7 +156,7 @@
                             <img class="img-responsive" alt="Responsive image" data-lazy="/assets/images/post/905535_848825298565675_4899594330206236662_o.jpg">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h2>article1 source4 category1 </h2>
+                                    <h2>Top 10 Wedding Songs </h2>
                                 </div>
                             </div>
                         </div>
@@ -166,7 +169,7 @@
                             <img class="img-responsive" alt="Responsive image" data-lazy="/assets/images/post/905535_848825298565675_4899594330206236662_o.jpg">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h2>article3 source1 category1 </h2>
+                                    <h2>Punjabi Wedding </h2>
                                 </div>
                             </div>
                         </div>
@@ -179,7 +182,7 @@
                             <img class="img-responsive" alt="Responsive image" data-lazy="/assets/images/post/905535_848825298565675_4899594330206236662_o.jpg">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h2>article2 source1 category1 </h2>
+                                    <h2>Wedding cake </h2>
                                 </div>
                             </div>
                         </div>
@@ -192,7 +195,7 @@
                             <img class="img-responsive" alt="Responsive image" data-lazy="/assets/images/post/905535_848825298565675_4899594330206236662_o.jpg">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h2>article1 source1 category1 </h2>
+                                    <h2>Top Wedding Destinations </h2>
                                 </div>
                             </div>
                         </div>
@@ -227,7 +230,7 @@
     </div>
 </div>
 
-        <footer class="footer">
+        <div id="footer">
       <div class="container">
           <div class="row">
               <div class='col-sm-6'>
@@ -244,7 +247,7 @@
               </div>
           </div>
       </div>
-</footer>
+</div>
 
 
 
@@ -255,8 +258,30 @@
 
 <script src="/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
 
-        <!--  scrpt is the custome page -->
-        <script src="/assets/script.js"></script>
+<!--  scrpt is the custome page -->
+<script src="/assets/script.js"></script>
 
     </body>
 </html>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var apply_on_scroll = function(){
+            /**
+             *
+             * initially the nav bar is transparent to keep the image uncluttered. but if user scrolls down. A flat ui nav bar is displayed.
+             *
+             */
+            var _this = $('.navigation');
+            _this.addClass('transparent navbar-fixed-top');
+            $(window).scroll(function (event) {
+                var scroll = $(window).scrollTop();
+                if(scroll > 150){
+                    _this.removeClass('transparent');
+                }
+                else {
+                    _this.addClass('transparent');
+                }
+            });
+        }();
+    })
+</script>

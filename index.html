@@ -11,8 +11,27 @@
         {% include featured.html %}
         {% include testimonial.html %}
         {% include footer.html %}
-        <!--  scrpt is the custome page -->
-        <script src="{{ site.github.url }}/assets/script.js"></script>
-
     </body>
 </html>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var apply_on_scroll = function(){
+            /**
+             *
+             * initially the nav bar is transparent to keep the image uncluttered. but if user scrolls down. A flat ui nav bar is displayed.
+             *
+             */
+            var _this = $('.navigation');
+            _this.addClass('transparent navbar-fixed-top');
+            $(window).scroll(function (event) {
+                var scroll = $(window).scrollTop();
+                if(scroll > 150){
+                    _this.removeClass('transparent');
+                }
+                else {
+                    _this.addClass('transparent');
+                }
+            });
+        }();
+    })
+</script>

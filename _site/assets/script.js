@@ -13,33 +13,11 @@ init = function () {
         interval: 7000
     });
 
-
-    //apply transparent navbar
-    apply_on_scroll();
-
     //apply slick slider of featured post
     featured_slider();
 };
 
 
-var apply_on_scroll = function(){
-    /**
-     *
-     * initially the nav bar is transparent to keep the image uncluttered. but if user scrolls down. A flat ui nav bar is displayed.
-     *
-     */
-    var _this = $('.navigation');
-    _this.addClass('transparent');
-    $(window).scroll(function (event) {
-        var scroll = $(window).scrollTop();
-        if(scroll > 150){
-            _this.removeClass('transparent');
-        }
-        else {
-            _this.addClass('transparent');
-        }
-    });
-};
 
 var featured_slider = function(){
     $('.lazy').slick({

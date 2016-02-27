@@ -2,17 +2,50 @@
 layout : post
 category : category2
 featured: true
-title : article1 source4 category2
+title : Say Hellow to Rajasthan
 tags : [permalinks, urls]
 description: |
   Learn how to configure URL formats, and add comments and analytics.
 image: /assets/images/post/11958079_862695403845331_6159702300798549580_o.jpg
 ---
 
-Your Jekyll-Bootstrap blog can be configured by setting options within the `./_config.yml` file.
-You'll note the extensive documentation provided within the file itself. Let's go over some of these in detail:
+The MoveIt! development team would like to wish you a very happy new year and bring new tidings. We have:
 
-## Blog Post Permalink Format
 
-Jekyll provides extensive customization options as to how your blog post permalinks will be generated.
-You can consult the format table here: [Jekyll Permalinks](https://github.com/mojombo/jekyll/wiki/Permalinks)
+### A MoveIt! 2013 Montage Movie
+
+
+<iframe width="710" height="315" src="https://www.youtube.com/embed/dblCGZzeUqs" frameborder="0" allowfullscreen></iframe>
+
+
+### A new website
+
+
+[(http://moveit.ros.org)](http://moveit.ros.org)
+
+We have listened to your feedback and added:
+
+
+
+
+  * [MoveIt! Blog](/blog/) - we will highlight features, apps, robots and demos here (so please send them in regularly)
+
+
+  * [New documentation](/documentation/)
+
+
+  * [New tutorials](/documentation/tutorials/) - Sphinx-based tutorials living next to the code so they are easier to maintain
+
+
+  * [Robots using MoveIt!](/robots/) page
+
+
+  * [FAQs page](/documentation/faqs/) - where we will collect the most frequently asked questions (and answers)
+
+
+  * [Status](/about/moveit-status/) page highlighting the status of different components in MoveIt!
+
+
+We are also inviting members of the community to sign up as official maintainers of the MoveIt! packages and associated interfaces for different robots so that we can get stable MoveIt! interfaces to a wide variety of robots.
+
+We look forward to the next year of moving it!!

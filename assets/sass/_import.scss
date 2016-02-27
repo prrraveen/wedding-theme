@@ -37,9 +37,36 @@ $text-two: #fff;
 body{
   margin: 0px; //so website do not touch the browser window
   padding: 0;
+  height: 100%;   /* The html and body elements cannot have any padding or margin. */
   -webkit-font-smoothing: antialiased; //smooth the font on mac
   font-family: "Helvetica", Arial; //defaut font , fallback to Arial since some browser do not support Helvatica
   font-weight: normal;
   font-size:16px;
   color: #666; //default font color. this is to override any existing font color on users browser.
+}
+
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -150px;
+}
+
+/* Set the fixed height of the footer here */
+ #push,
+ #footer {
+   height: 150px;
+ }
+
+ /* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
