@@ -36,10 +36,14 @@
                 <hr>
                 <div class='row'>
                       <div class='col-sm-6 text-left'>
-                          <a href="{{page.previous.url}}"><-- <b>Previous:</b> {{ page.previous.title }}</a>
+                          {% if page.previous.url %}
+                          <a href="{{ site.github.url }}{{page.previous.url}}"><-- <b>Previous:</b> {{ page.previous.title }}</a>
+                          {% endif %}
                       </div>
                       <div class='col-sm-6 text-right'>
-                          <a href="{{page.next.url}}"><b>Next:</b> {{ page.next.title }}  --></a>
+                          {% if page.next.url %}
+                            <a href="{{ site.github.url }}{{page.next.url}}"><b>Next:</b> {{ page.next.title }}  --></a>
+                          {% endif %}
                       </div>
                 </div>
             </div>
