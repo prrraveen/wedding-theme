@@ -9,7 +9,7 @@ description: > # this means to ignore newlines until "baseurl:"
 author: anatoly petrov
 baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://anatolypet21.github.io/dest4" # the base hostname & protocol for your site
-url: "http://anatolypet21.github.io/newjekyll" # the base hostname & protocol for your site
+url: "/wedding-theme" # the base hostname & protocol for your site
 
 # User setting
 owner: Anatoly petrov

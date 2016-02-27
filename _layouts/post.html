@@ -37,12 +37,12 @@
                 <div class='row'>
                       <div class='col-sm-6 text-left'>
                           {% if page.previous.url %}
-                          <a href="{{ site.github.url }}{{page.previous.url}}"><-- <b>Previous:</b> {{ page.previous.title }}</a>
+                          <a href="{{ site.url }}{{page.previous.url}}"><-- <b>Previous:</b> {{ page.previous.title }}</a>
                           {% endif %}
                       </div>
                       <div class='col-sm-6 text-right'>
                           {% if page.next.url %}
-                            <a href="{{ site.github.url }}{{page.next.url}}"><b>Next:</b> {{ page.next.title }}  --></a>
+                            <a href="{{ site.url }}{{page.next.url}}"><b>Next:</b> {{ page.next.title }}  --></a>
                           {% endif %}
                       </div>
                 </div>
