@@ -1,0 +1,13 @@
+#testimonial{
+    background-color: $observatory;
+    color: $text-two;
+    blockquote{
+        margin-top: 5em;
+        margin-bottom: 5em;
+        p{
+            font-family: ProximaNovaA-Thin;
+            font-size: 26px;
+            font-weight: bold;
+        }
+    }
+}

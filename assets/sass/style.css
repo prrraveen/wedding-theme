@@ -83,8 +83,10 @@ body {
 #featured {
   background-color: #2C3E50;
   color: #fff;
-  padding-bottom: 5%;
-  overflow: hidden; }
+  overflow: hidden;
+  -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
   #featured h3 {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -110,6 +112,18 @@ body {
     border-radius: 0;
     -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    margin-bottom: 3em; }
+
+#testimonial {
+  background-color: #049372;
+  color: #fff; }
+  #testimonial blockquote {
+    margin-top: 5em;
+    margin-bottom: 5em; }
+    #testimonial blockquote p {
+      font-family: ProximaNovaA-Thin;
+      font-size: 26px;
+      font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */

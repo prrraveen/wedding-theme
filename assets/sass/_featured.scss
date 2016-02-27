@@ -1,8 +1,8 @@
 #featured {
     background-color: $midnight-blue;
     color: $text-two;
-    padding-bottom: 5%;
     overflow: hidden;
+    @include box-shadow(2px 2px 3px rgba(0,0,0,.3));
     h3 {
         margin-top: 5%;
         margin-bottom: 5%;
@@ -28,8 +28,8 @@
         }
     }
     .btn {
-        // background-color: $pomgranate;
         @include border-radius(0);
         @include box-shadow(2px 2px 3px rgba(0,0,0,.3));
+        margin-bottom: 3em;
     }
 }
