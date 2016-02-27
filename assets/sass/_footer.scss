@@ -1,0 +1,14 @@
+.footer{
+    background-color: #6C7A89;
+    ul{
+        margin: 5%;
+        list-style-type: none;
+        line-height: 50px;
+        a{
+            color: $text-two;
+            font-weight: bold;
+            text-decoration: none;
+            // font-family: ProximaNovaA-Thin;
+        }
+    }
+}

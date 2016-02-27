@@ -126,4 +126,15 @@ body {
       font-size: 26px;
       font-weight: bold; }
 
+.footer {
+  background-color: #6C7A89; }
+  .footer ul {
+    margin: 5%;
+    list-style-type: none;
+    line-height: 50px; }
+    .footer ul a {
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none; }
+
 /*# sourceMappingURL=style.css.map */
