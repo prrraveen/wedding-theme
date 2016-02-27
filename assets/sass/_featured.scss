@@ -1,12 +1,34 @@
 #featured {
     background-color: $midnight-blue;
     color: $text-two;
-
-    h3{
+    padding-bottom: 5%;
+    h3 {
         margin-top: 5%;
         margin-bottom: 5%;
         font-weight: bold;
         font-family: ProximaNovaA-Thin;
-
+    }
+    .slick-slide {
+        max-height: 450px;
+        margin-left: 1em;
+        margin-right: 1em;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .lazy{
+        a:hover,a:focus{
+            text-decoration: none;
+        }
+        h2{
+            color: $text-two;
+            font-family: ProximaNovaA-Thin;
+            margin-top: 1em;
+            margin-bottom: 2em;
+        }
+    }
+    .btn {
+        // background-color: $pomgranate;
+        @include border-radius(0);
+        @include box-shadow(2px 2px 3px rgba(0,0,0,.3));
     }
 }

@@ -53,7 +53,7 @@ var featured_slider = function(){
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,
-    //   adaptiveHeight: true,
+      adaptiveHeight: true,
        responsive: [
         {
           breakpoint: 1024,

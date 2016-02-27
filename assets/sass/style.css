@@ -82,11 +82,33 @@ body {
 
 #featured {
   background-color: #2C3E50;
-  color: #fff; }
+  color: #fff;
+  padding-bottom: 5%; }
   #featured h3 {
     margin-top: 5%;
     margin-bottom: 5%;
     font-weight: bold;
     font-family: ProximaNovaA-Thin; }
+  #featured .slick-slide {
+    max-height: 450px;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-bottom: 0;
+    margin-bottom: 0; }
+  #featured .lazy a:hover, #featured .lazy a:focus {
+    text-decoration: none; }
+  #featured .lazy h2 {
+    color: #fff;
+    font-family: ProximaNovaA-Thin;
+    margin-top: 1em;
+    margin-bottom: 2em; }
+  #featured .btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
 
 /*# sourceMappingURL=style.css.map */
