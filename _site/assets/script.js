@@ -6,18 +6,26 @@
 var init;
 init = function () {
     //The .active class needs to be added to one of the slides. Otherwise, the carousel will not be visible.
-    $('.carousel .item:first').addClass('active');
+    // $('.carousel .item:first').addClass('active');
 
     //adding carousel avoid using bootstrap data tags for JS events. it get un manageable soon.
-    $('.carousel').carousel({
-        interval: 7000
-    });
-
+    // $('.carousel').carousel({
+        // interval: 7000
+    // });
+    carousel_slider()
     //apply slick slider of featured post
     featured_slider();
 };
 
 
+var carousel_slider = function(){
+    $('#carousel').slick({
+      autoplay: true,
+      autoplaySpeed: 5000,
+      adaptiveHeight: true,
+      fade: true,
+    });
+}
 
 var featured_slider = function(){
     $('.lazy').slick({
