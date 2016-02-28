@@ -50,8 +50,7 @@
 }
 
 .navigation #cse{
-    width: 30%;
-    margin-left: 12%;
+    max-width: 350px;
     .gsc-branding-text,.gsc-branding-img{
         display: none;
     }
