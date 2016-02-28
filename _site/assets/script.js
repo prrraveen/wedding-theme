@@ -20,10 +20,11 @@ init = function () {
 
 var carousel_slider = function(){
     $('#carousel').slick({
-      autoplay: true,
-      autoplaySpeed: 5000,
-      adaptiveHeight: true,
-      fade: true,
+        lazyLoad: 'ondemand',
+        autoplay: true,
+        autoplaySpeed: 5000,
+        adaptiveHeight: true,
+        fade: true,
     });
 }
 
