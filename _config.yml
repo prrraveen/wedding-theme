@@ -4,4 +4,8 @@ markdown: kramdown
 
 include: ['_pages']
 
-gems: [jekyll-sitemap]
+# jekyll-sitemap generate sitemap.xml at _site/ dir. It helps google search webmaster to index the website
+# jekyll-feed The plugin will automatically generate an Atom feed at /feed.xml.
+
+# HOW TO INSTALL - >  sudo gem install jekyll-sitemap jekyll-feed
+gems: [jekyll-sitemap,jekyll-feed]
