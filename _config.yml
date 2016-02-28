@@ -8,4 +8,4 @@ include: ['_pages']
 # jekyll-feed The plugin will automatically generate an Atom feed at /feed.xml.
 
 # HOW TO INSTALL - >  sudo gem install jekyll-sitemap jekyll-feed
-gems: [jekyll-sitemap,jekyll-feed]
+gems: [jekyll-sitemap,jekyll-feed,github-pages]
