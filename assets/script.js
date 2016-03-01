@@ -36,6 +36,7 @@ var featured_slider = function(){
       autoplay: true,
       autoplaySpeed: 2000,
       adaptiveHeight: true,
+      arrows: true,
        responsive: [
         {
           breakpoint: 1024,
