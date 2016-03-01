@@ -25,49 +25,42 @@
 
     </head>
     <body>
-        <nav class="navbar navbar-default navigation">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
-                          <span class="sr-only">Toggle navigation</span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand name" href="http://prrraveen.github.io/wedding-theme/">GAME OVER</a>
-                    </div>
-
-                    <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="/all_posts.html">BLOG</a></li>
-                            <li><a href="/">CONTACT</a></li>
-                        </ul>
-                        <div id="cse" class="navbar-form navbar-right" role="search">
-                            <div>
-                                <script>
-                                  (function() {
-                                    var cx = '016608435180918348870:bmzpsnjpmuw';
-                                    var gcse = document.createElement('script');
-                                    gcse.type = 'text/javascript';
-                                    gcse.async = true;
-                                    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-                                        '//cse.google.com/cse.js?cx=' + cx;
-                                    var s = document.getElementsByTagName('script')[0];
-                                    s.parentNode.insertBefore(gcse, s);
-                                  })();
-                                </script>
-                                <gcse:searchbox-only>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <nav class="navbar navbar-default navigation transparent navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand name" href="http://prrraveen.github.io/wedding-theme/">GAME OVER</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target='#navbar'>
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbar" class="collapse text-center">
+            <ul class="">
+                <li><a href="/all_posts.html">BLOG</a></li>
+                <li><a href="/">CONTACT</a></li>
+                <li id='cse'>
+                    <gcse:searchbox-only>
+                </li>
+            </ul>
         </div>
     </div>
 </nav>
+
+<script>
+  // script google searh my site
+  (function() {
+    var cx = '016608435180918348870:bmzpsnjpmuw';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
 
         <div id='carousel'>
     
@@ -261,23 +254,13 @@
 </html>
 <script type="text/javascript">
     $(document).ready(function(){
-        var apply_on_scroll = function(){
-            /**
-             *
-             * initially the nav bar is transparent to keep the image uncluttered. but if user scrolls down. A flat ui nav bar is displayed.
-             *
-             */
-            var _this = $('.navigation');
-            _this.addClass('transparent navbar-fixed-top');
-            $(window).scroll(function (event) {
-                var scroll = $(window).scrollTop();
-                if(scroll > 150){
-                    _this.removeClass('transparent');
-                }
-                else {
-                    _this.addClass('transparent');
-                }
-            });
-        }();
-    })
+        /**
+         * transparent class makes navbar transparent
+         * navbar-fixed-top fixed the navbar to the top and makes it always visible
+         * adds background-color to the page. It helps when image resizes.
+        */
+        var _this = $('.navigation');
+        _this.addClass('transparent navbar-fixed-top');
+        $('body').addClass('blue-skin');
+    });
 </script>

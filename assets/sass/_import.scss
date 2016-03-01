@@ -43,7 +43,10 @@ body{
   font-weight: normal;
   font-size:16px;
   color: #666; //default font color. this is to override any existing font color on users browser.
-  background-color: $midnight-blue;
+}
+
+.blue-skin{
+    background-color: $midnight-blue;
 }
 
 

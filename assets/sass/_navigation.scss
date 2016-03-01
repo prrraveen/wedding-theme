@@ -45,12 +45,9 @@
   }
 }
 
-.navigation .navbar-brand{
-    // font-family: ProximaNova-ThinIt;
-}
-
 .navigation #cse{
     max-width: 350px;
+    float: right;
     .gsc-branding-text,.gsc-branding-img{
         display: none;
     }
@@ -79,5 +76,25 @@
         padding: 0em;
         background: transparent;
         border: none;
+    }
+}
+
+
+.navbar-header
+{
+    float: none;
+}
+
+.navbar-toggle
+{
+    display: block;
+}
+
+.navigation ul{
+    list-style-type: none;
+    line-height: 50px;
+
+    a{
+        text-decoration: none;
     }
 }
