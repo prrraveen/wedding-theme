@@ -43,7 +43,7 @@ var featured_slider = function(){
             slidesToShow: 2,
             slidesToScroll: 1,
             infinite: true,
-            dots: true
+            dots: false
           }
         },
         {
@@ -60,9 +60,6 @@ var featured_slider = function(){
             slidesToScroll: 1
           }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
       ]
     });
 }
