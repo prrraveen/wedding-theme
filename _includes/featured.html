@@ -6,6 +6,7 @@
             </div>
         </div>
     </div>
+
     <div class="row">
         <div class='col-sm-12'>
             <span class="nvgt" id="prev"> < </span>
@@ -17,24 +18,12 @@
                    <a href="{{ site.github.url }}{{ post.url }}">
                         <div>
                             <img class="img-responsive" alt="Responsive image" data-lazy="{{ site.github.url }}{{ post.image}}">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h2>{{ post.title }} </h2>
-                                </div>
-                            </div>
+                            <h2 class="caption">{{ post.title }} </h2>
                         </div>
                     </a>
                    {% endif %}
                {% endfor %}
              </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-6 text-center">
-            <a href="{{ site.github.url }}/featured_posts.html" class="btn btn-lg btn-danger">FEATURED POST</a>
-        </div>
-        <div class="col-sm-6 text-center">
-            <a href="{{ site.github.url }}/all_posts.html" class="btn btn-lg btn-danger">ALL POST</a>
         </div>
     </div>
 </div>
