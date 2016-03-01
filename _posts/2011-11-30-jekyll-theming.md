@@ -6,7 +6,7 @@ category : category4
 title : Indian Wedding Style
 description: |
   Learn how to install, switch between, and edit themes in Jekyll Bootstrap.
-image: assets/images/post/12486025_881505571964314_2239404523290429616_o.jpg
+image: /assets/images/post/12486025_881505571964314_2239404523290429616_o.jpg
 ---
 
 The MoveIt! development team would like to wish you a very happy new year and bring new tidings. We have:
