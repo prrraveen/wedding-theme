@@ -10,16 +10,18 @@
   @include border-radius(0px);
   @include box-shadow(0 0 0 0);
 
-  a {
-    // color: $text-two !important;
-  }
-
   a:hover,a:focus{
     font-size: 17px;
     color: $turquoise !important;
   }
 
 }
+
+.navbar-brand{
+    font-size: 20px !important;
+    font-weight: normal;
+}
+
 
 .navigation{
   margin: 0 auto;
