@@ -9,9 +9,6 @@ init = function () {
     // $('.carousel .item:first').addClass('active');
 
     //adding carousel avoid using bootstrap data tags for JS events. it get un manageable soon.
-    // $('.carousel').carousel({
-        // interval: 7000
-    // });
     carousel_slider()
     //apply slick slider of featured post
     featured_slider();
@@ -37,6 +34,8 @@ var featured_slider = function(){
       autoplaySpeed: 2000,
       adaptiveHeight: true,
       arrows: true,
+      prevArrow: $('.nvgt#prev'),
+      nextArrow: $('.nvgt#next'),
        responsive: [
         {
           breakpoint: 1024,
