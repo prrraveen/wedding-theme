@@ -1,5 +1,4 @@
 <div class="wrap all_post_landing">
-    <div class="container">
         <div class="row">
             {% for post in site.posts limit:12 %}
                 {% if post.image %}
@@ -15,12 +14,8 @@
             {% endfor %}
         </div>
         <div class="row">
-            <div class="col-sm-6 text-center">
-                <a href="{{ site.github.url }}/featured_posts.html" class="btn btn-lg btn-danger">FEATURED POST</a>
-            </div>
-            <div class="col-sm-6 text-center">
-                <a href="{{ site.github.url }}/all_posts.html" class="btn btn-lg btn-danger">ALL POST</a>
+            <div class="col-sm-12 text-center">
+                <button id='infi-scroll' class="btn btn-lg btn-danger">MORE POST</a>
             </div>
         </div>
-    </div>
 </div>

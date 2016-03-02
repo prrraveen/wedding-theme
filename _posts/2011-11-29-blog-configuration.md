@@ -6,7 +6,7 @@ title : Say Hellow to Rajasthan
 tags : [permalinks, urls]
 description: |
   Learn how to configure URL formats, and add comments and analytics.
-image: /assets/images/post/11958079_862695403845331_6159702300798549580_o.jpg
+image: /assets/images/post/shutterstock_366872720.jpg
 ---
 
 The MoveIt! development team would like to wish you a very happy new year and bring new tidings. We have:

@@ -6,7 +6,7 @@ title : Top Wedding Destinations
 description: |
   Jekyll Bootstrap is built to deploy instantly to GitHub Pages.
   However you can also deploy to your own server as well as Amazon S3.
-image: /assets/images/post/905535_848825298565675_4899594330206236662_o.jpg
+image: /assets/images/post/shutterstock_11279407.jpg
 ---
 
 The MoveIt! development team would like to wish you a very happy new year and bring new tidings. We have:

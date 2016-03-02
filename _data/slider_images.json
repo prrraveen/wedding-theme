@@ -1,14 +1,35 @@
 [
   {
     "name": "Game Over",
-    "image": "/assets/images/carousel/game-over.jpg",
+    "image": "/assets/images/carousel/shutterstock_97733735.jpg",
     "heading": "Game Over",
     "sub-heading": "And When I wake up, you are still with me",
     "link": "#"
   },
   {
     "name": "beach baby pink",
-    "image": "/assets/images/carousel/walked-thousan-miles.jpg",
+    "image": "/assets/images/carousel/shutterstock_297611732.jpg",
+    "heading": "Two of Us",
+    "sub-heading": ".. So I stole his last name.",
+    "link": "#"
+  },
+  {
+    "name": "beach baby pink",
+    "image": "/assets/images/carousel/shutterstock_297700607.jpg",
+    "heading": "Two of Us",
+    "sub-heading": ".. So I stole his last name.",
+    "link": "#"
+  },
+  {
+    "name": "beach baby pink",
+    "image": "/assets/images/carousel/shutterstock_343652564.jpg",
+    "heading": "Two of Us",
+    "sub-heading": ".. So I stole his last name.",
+    "link": "#"
+  },
+  {
+    "name": "beach baby pink",
+    "image": "/assets/images/carousel/shutterstock_357037091.jpg",
     "heading": "Two of Us",
     "sub-heading": ".. So I stole his last name.",
     "link": "#"

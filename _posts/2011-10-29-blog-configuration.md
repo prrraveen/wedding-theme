@@ -6,7 +6,7 @@ tags : [permalinks, urls]
 title : Wedding cake
 description: |
   Learn how to configure URL formats, and add comments and analytics.
-image: /assets/images/post/12473584_885453538236184_5568335677976971097_o.jpg
+image: /assets/images/post/shutterstock_113785513.jpg
 ---
 
 The MoveIt! development team would like to wish you a very happy new year and bring new tidings. We have:

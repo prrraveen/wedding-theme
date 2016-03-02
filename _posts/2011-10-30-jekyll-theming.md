@@ -6,7 +6,7 @@ category : category1
 title : Punjabi Weddings
 description: |
   Learn how to install, switch between, and edit themes in Jekyll Bootstrap.
-image: /assets/images/post/905535_848825298565675_4899594330206236662_o.jpg
+image: /assets/images/post/shutterstock_288067313.jpg
 ---
 
 The MoveIt! development team would like to wish you a very happy new year and bring new tidings. We have:
