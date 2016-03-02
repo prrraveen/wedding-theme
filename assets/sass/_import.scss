@@ -5,6 +5,8 @@ $midnight-blue: #2C3E50;
 $pomgranate: #E74C3C;
 $observatory: #049372;
 $wax-flower: #F1A9A0;
+$baby-pink: #e94e77;
+
 $text-one: #4f3b3b;
 $text-two: #fff;
 
@@ -46,8 +48,13 @@ body{
 }
 
 .body-skin{
-    background-color: $clouds;
+    background-color: #e94e77;
+    background-image: url("/assets/images/body-skin.png");
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: scroll;
 }
+
 
 
 /* Wrapper for page content to push down footer */
@@ -62,7 +69,7 @@ body{
 /* Set the fixed height of the footer here */
  #push,
  #footer {
-   height: 200px;
+   height: 193px;
  }
 
  /* Lastly, apply responsive CSS fixes as necessary */
@@ -73,4 +80,10 @@ body{
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+
+
+.background-wrap{
+    margin-right: 20px;
+    margin-left: 20px;
 }
