@@ -1,13 +1,13 @@
 #footer{
-    // background-color: #6C7A89;
-    background-color: $midnight-blue;
+    background-color: $clouds;
+    // background-color: $midnight-blue;
 
     ul{
         margin: 5%;
         list-style-type: none;
         line-height: 50px;
         a{
-            color: $text-two;
+            color: rgba( 0, 0, 0, .8 );
             font-weight: bold;
             text-decoration: none;
             // font-family: ProximaNovaA-Thin;
