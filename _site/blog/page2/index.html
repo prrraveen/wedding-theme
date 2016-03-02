@@ -23,7 +23,7 @@
 <meta name="google-site-verification" content="OsOUPQC4-O6o-0X6teMLiRKIOu67cSRSC35rxZ9uQ_U" />
 
     </head>
-    <body>
+    <body class="body-skin">
         <nav class="navbar navbar-default navigation transparent navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -37,7 +37,7 @@
         </div>
         <div id="navbar" class="collapse text-center">
             <ul class="">
-                <li><a href="/all_posts.html">BLOG</a></li>
+                <li><a href="/blog/">BLOG</a></li>
                 <li><a href="/">CONTACT</a></li>
                 <li id='cse'>
                     <gcse:searchbox-only>
@@ -61,7 +61,7 @@
   })();
 </script>
 
-        <div id="wrap"  class='posts'>
+        <div id="wrap"  class='posts background-wrap'>
     <div class="container">
         <div class="row">
             <div class='col-sm-12'>
@@ -108,37 +108,44 @@ However you can also deploy to your own server as well as Amazon S3.
           
     </div>
 
-    <!-- Pagination links -->
-    <div class="pagination">
-      
-        <a href="/blog/" class="previous">Previous</a>
-      
-      <span class="page_number ">Page: 2 of 2</span>
-      
-        <span class="next ">Next</span>
-      
-    </div>
 
     
-    <div class="pagination">
-      
-        <a href="/blog/">&laquo; Prev</a>
-      
+        <div class="container">
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <nav>
+                <ul class="pagination">
+                    
+                        <li>
+                          <a href="/blog/" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                    
 
-      
-        
-          <a href="/blog/">1</a>
-        
-      
-        
-          <em>2</em>
-        
-      
+                    
+                    
+                    <li class=""><a href="/blog/">1</a></li>
+                    
+                    
+                    
+                        <li class="active"><a href="#">2</a></li>
+                    
+                    
 
-      
-        <span>Next &raquo;</span>
-      
+                    
+                        <li class="disabled">
+                    
+                            <a href="" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                </ul>
+            </nav>
+        </div>
     </div>
+</div>
+
     
     <div id="push"></div>
 </div>
