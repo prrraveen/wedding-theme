@@ -33,26 +33,28 @@
     .nvgt{
             position: absolute;
             z-index: 1000;
-            font-size: 32px;
-            padding: 10px;
-            background-color: rgba(0,0,0,0.3);
+            padding: 17px;
+            background-color: rgba( 255, 255, 255, .3 );
+            box-shadow: 2px 2px 4px rgba( 0, 0, 0, .2 );
             cursor: pointer;
-            border: solid 1pt;
-            border-color: black;
+            display: block;
+            width: 50px;
+            height: 50px;
+            top: 30%;
     }
     .nvgt#prev{
-        margin-top: 2.7em;
+        left: 16px;
         float: left;
-        margin-left: 1em;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
     }
     .nvgt#next{
-        position: absolute;
-        right: 0;
-        margin-top: 2.7em;
-        margin-right: 1em;
+        right: 16px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
     }
 
     .nvgt:hover,nvgt:focus{
-        background-color: rgba(0,0,0,.5);
+        background-color: rgba( 255, 255, 255, .35);
     }
 }

@@ -10,9 +10,8 @@
 
         <div class="row">
             <div class='col-sm-12'>
-                <span class="nvgt" id="prev"> < </span>
-                <span class="nvgt" id="next"> > </span>
-                <!-- <button class='btn btn-lg btn-primary previous'> < </button> -->
+                <span class="nvgt glyphicon glyphicon-chevron-left" id="prev"></span>
+                <span class="nvgt glyphicon glyphicon-chevron-right" id="next"></span>
                 <div data-slick='{"slidesToShow": 6, "slidesToScroll": 6}' class='lazy'>
                    {% for post in site.posts limit:30 %}
                        {% if post.featured == true %}
