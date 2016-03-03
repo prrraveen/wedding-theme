@@ -1,16 +1,16 @@
 #footer{
-    background-color: $clouds;
-    // background-color: $midnight-blue;
-
-    ul{
-        margin: 5%;
-        list-style-type: none;
-        line-height: 50px;
-        a{
-            color: rgba( 0, 0, 0, .8 );
-            font-weight: bold;
-            text-decoration: none;
-            // font-family: ProximaNovaA-Thin;
-        }
+    background-color: $redical-red;
+    .row{
+        margin-top: 10px;
+    }
+    .address-line{
+        background-color: $creame;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    a{
+        color: $text-two;
+        font-weight: bold;
+        text-decoration: none;
     }
 }
