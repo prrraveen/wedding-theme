@@ -3,10 +3,8 @@ layout: post
 category : category1
 featured: true
 title : Top 10 Wedding Songs
-description: |
-  Jekyll Bootstrap is built to deploy instantly to GitHub Pages.
-  However you can also deploy to your own server as well as Amazon S3.
-image: /assets/images/post/shutterstock_357037091.jpg
+description: .. Wrapping around.
+image: /assets/images/carousel/shutterstock_343652564.jpg
 ---
 
 The MoveIt! development team would like to wish you a very happy new year and bring new tidings. We have:

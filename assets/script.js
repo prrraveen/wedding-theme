@@ -31,6 +31,7 @@ var carousel_slider = function(){
         autoplaySpeed: 5000,
         adaptiveHeight: true,
         fade: true,
+        pauseOnHover: false,
     });
 }
 
@@ -43,6 +44,7 @@ var featured_slider = function(){
       autoplaySpeed: 2000,
       adaptiveHeight: true,
       arrows: true,
+    //   pauseOnHover: false,
       prevArrow: $('.nvgt#prev'),
       nextArrow: $('.nvgt#next'),
        responsive: [

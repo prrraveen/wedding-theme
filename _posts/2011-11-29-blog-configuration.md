@@ -4,9 +4,8 @@ category : category2
 featured: true
 title : Say Hellow to Rajasthan
 tags : [permalinks, urls]
-description: |
-  Learn how to configure URL formats, and add comments and analytics.
-image: /assets/images/post/shutterstock_366872720.jpg
+description: .. So I stole his last name.
+image: /assets/images/carousel/shutterstock_357037091.jpg
 ---
 
 The MoveIt! development team would like to wish you a very happy new year and bring new tidings. We have:

@@ -11,6 +11,6 @@ include: ['_pages']
 gems: [jekyll-sitemap,jekyll-feed,jekyll-paginate]
 
 # how many post to show in ALL POST and FEATURED POST
-paginate: 3
+paginate: 6
 
 paginate_path: "/blog/page:num/"

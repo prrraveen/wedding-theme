@@ -2,11 +2,9 @@
 layout: post
 category : category1
 featured: true
-title : Top Wedding Destinations
-description: |
-  Jekyll Bootstrap is built to deploy instantly to GitHub Pages.
-  However you can also deploy to your own server as well as Amazon S3.
-image: /assets/images/post/shutterstock_11279407.jpg
+title : Game Over
+description: And When I wake up, you are still with me
+image: "/assets/images/carousel/shutterstock_97733735.jpg"
 ---
 
 The MoveIt! development team would like to wish you a very happy new year and bring new tidings. We have:

@@ -3,10 +3,9 @@ layout : post
 category : category1
 featured: true
 tags : [permalinks, urls]
-title : Wedding cake
-description: |
-  Learn how to configure URL formats, and add comments and analytics.
-image: /assets/images/post/shutterstock_113785513.jpg
+title : Two of Us
+description: .. So I stole his last name.
+image: /assets/images/carousel/shutterstock_297611732.jpg
 ---
 
 The MoveIt! development team would like to wish you a very happy new year and bring new tidings. We have:
