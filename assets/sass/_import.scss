@@ -6,9 +6,10 @@ $pomgranate: #E74C3C;
 $observatory: #049372;
 $redical-red: #EE7469;
 $wax-flower: #F1A9A0;
-$wax-flower-with-opecity: rgba(241,169,160,0.84);
+$wax-flower-with-opecity: rgba(241,169,160,0.74);
 $creame: #FFF0D6;
 $wood: #3B0102;
+$purple: #8e44ad; 
 $text-one: #4f3b3b;
 $text-two: #fff;
 $footer-height: 80px;
@@ -89,6 +90,10 @@ body{
 .background-wrap{
     margin-right: 20px;
     margin-left: 20px;
+}
+
+.top-margin{
+    margin-top: 20px;
 }
 
 .ProximaNovaA-Thin { font-family: ProximaNovaA-Thin  }

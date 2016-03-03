@@ -5,9 +5,14 @@
         margin-top: 10px;
     }
     .address-line{
-        background-color: $creame;
+        // background-color: $creame;
+        background-color: #FDE1F7;
         margin-left: 0px;
         margin-right: 0px;
+        small{
+            color: #8e44ad;
+            font-weight: bold;
+        }
     }
     a{
         color: $text-two;
