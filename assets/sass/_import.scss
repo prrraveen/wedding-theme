@@ -6,12 +6,14 @@ $pomgranate: #E74C3C;
 $observatory: #049372;
 $redical-red: #EE7469;
 $wax-flower: #F1A9A0;
-$wax-flower-with-opecity: rgba(241,169,160,0.74);
+$wax-flower-with-opecity: rgba(1,1,1,0);
+// $wax-flower-with-opecity: rgba(241,169,160,0.74);
 $creame: #FFF0D6;
 $wood: #3B0102;
 $purple: #8e44ad;
 $text-one: #4f3b3b;
 $text-two: #fff;
+$text-purple: #8e44ad;
 $footer-height: 80px;
 
 @mixin transition($val){
@@ -52,7 +54,7 @@ body{
 }
 
 .body-skin{
-    background-color: #e94e77;
+    // background-color: #e94e77;
     background-repeat: repeat;
     background-position: top left;
     background-attachment: scroll;
