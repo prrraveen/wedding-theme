@@ -5,15 +5,13 @@
   overflow: hidden;
   font-weight: 600;
   background-color: rgba(0,0,0,0.25);
-  // background-color: $text-purple;
-  // opacity: 0.7;
   border-color: transparent;
-  // color: #fff !important;
+  color: #fff !important;
   color: $text-purple !important;
   @include border-radius(0px);
   @include box-shadow(0 0 0 0);
   a{
-    color: $text-purple !important;
+    color: $text-two !important;
     }
   a:hover,a:focus{
     font-size: 17px;
@@ -117,6 +115,10 @@
     cursor: pointer;
     position: fixed;
     background-color: $purple;
+    border-color: $purple;
+    // @include border-radius(0);
+    @include box-shadow(2px 2px 3px rgba(142,68,173,.3));
+
     bottom: 20px;
     right: 20px;
     display:none;
@@ -126,4 +128,11 @@
 .back-to-top:hover{
     background-color: $purple;
     border-color: $purple;
+}
+
+.navbar-brand.logo{
+    padding-right:0px;
+}
+.navbar-brand.name{
+    padding-left:  0px;
 }

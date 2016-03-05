@@ -4,7 +4,7 @@ category : category1
 featured: true
 title : Top 10 Wedding Songs
 description: .. Wrapping around.
-image: /assets/images/carousel/shutterstock_343652564.jpg
+image: /assets/images/post/image4.jpg
 ---
 
 The MoveIt! development team would like to wish you a very happy new year and bring new tidings. We have:

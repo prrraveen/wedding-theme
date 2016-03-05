@@ -5,7 +5,7 @@ featured: true
 category : category1
 title : Beach Baby pink
 description: .. So I stole his last name.
-image: /assets/images/carousel/shutterstock_297700607.jpg
+image: /assets/images/post/image3.jpg
 ---
 
 The MoveIt! development team would like to wish you a very happy new year and bring new tidings. We have:

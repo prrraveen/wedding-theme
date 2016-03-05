@@ -4,7 +4,7 @@ category : category1
 featured: true
 title : Game Over
 description: And When I wake up, you are still with me
-image: "/assets/images/carousel/shutterstock_97733735.jpg"
+image: "/assets/images/post/image1.jpg"
 ---
 
 The MoveIt! development team would like to wish you a very happy new year and bring new tidings. We have:
