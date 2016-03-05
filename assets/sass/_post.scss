@@ -19,7 +19,10 @@
 }
 
 .jumbotron{
+    color: $purple;
     font-family: 'Cherry Swash', cursive;
     background-color: $wax-flower-with-opecity;
-    // font-family: 'Bad Script', cursive;
+    a{
+        color: $purple;
+    }
 }
