@@ -14,7 +14,8 @@ $purple: #8e44ad;
 $text-one: #4f3b3b;
 $text-two: #fff;
 $text-purple: #8e44ad;
-$footer-height: 80px;
+
+$footer-height: 20%;
 
 @mixin transition($val){
   -webkit-transition: $val;
@@ -95,7 +96,7 @@ body{
 }
 
 .top-margin{
-    margin-top: 20px;
+    margin-top: 7%;
 }
 
 .ProximaNovaA-Thin { font-family: ProximaNovaA-Thin  }
