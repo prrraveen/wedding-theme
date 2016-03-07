@@ -20,15 +20,7 @@ permalink: /:title
 jekyll-archives:
   enabled:
     - year
-    - month
-    - categories
-    - tags
   layouts:
     year: archive-time
-    month: archive-time
   permalinks:
     year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
