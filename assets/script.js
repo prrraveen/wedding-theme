@@ -40,7 +40,7 @@ var featured_slider = function(){
       lazyLoad: 'ondemand',
       slidesToShow: 3,
       slidesToScroll: 1,
-      autoplay: false,
+      autoplay: true,
       autoplaySpeed: 2000,
       adaptiveHeight: true,
       arrows: true,
