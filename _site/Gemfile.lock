@@ -129,6 +129,9 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-archives
+  jekyll-feed
+  jekyll-paginate
+  jekyll-sitemap
   rdiscount
 
 BUNDLED WITH
