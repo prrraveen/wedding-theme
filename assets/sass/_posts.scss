@@ -4,8 +4,9 @@
     .well{
         font-family: 'Cherry Swash', cursive;
     }
-    h1,h3 a,small,p{
+}
+
+div.posts * {
         color: $purple;
-        font-family: 'Cherry Swash', cursive;
-    }
+        font-family: 'Cherry Swash', cursive; 
 }

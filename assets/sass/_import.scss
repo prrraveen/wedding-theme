@@ -93,6 +93,16 @@ body{
     margin-top: 7%;
 }
 
+.address-line{
+        background-color: #FDE1F7;
+        margin-left: 0px;
+        margin-right: 0px;
+        small{
+            color: $text-purple;
+            font-weight: bold;
+        }
+}
+
 .ProximaNovaA-Thin { font-family: ProximaNovaA-Thin  }
 .ProximaNovaS-Thin { font-family: ProximaNovaS-Thin; }
 .ProximaNovaA-ThinIt { font-family: ProximaNovaA-ThinIt; }
