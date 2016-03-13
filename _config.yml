@@ -2,8 +2,6 @@ url: "http://prrraveen.github.io/wedding-theme" # the base hostname & protocol f
 
 markdown: kramdown
 
-include: ['_pages']
-
 # jekyll-sitemap generate sitemap.xml at _site/ dir. It helps google search webmaster to index the website
 # jekyll-feed The plugin will automatically generate an Atom feed at /feed.xml.
 
